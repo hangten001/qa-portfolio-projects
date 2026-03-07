@@ -1,0 +1,175 @@
+{
+  "info": {
+    "_postman_id": "8fb0f1fe-6b14-4bd5-bb24-3171dc32d4e5",
+    "name": "Users",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38116194"
+  },
+  "item": [
+    {
+      "name": "Login User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "name",
+              "value": "Yanski",
+              "type": "text",
+              "uuid": "0ca413d7-7f81-45b8-bc87-db42d09710ee"
+            },
+            {
+              "key": "email",
+              "value": "email@email.test",
+              "type": "text",
+              "uuid": "1cf928e9-b525-4364-af79-2a8c3b156be5"
+            },
+            {
+              "key": "password",
+              "value": "123456",
+              "type": "text",
+              "uuid": "0c8f0369-6f59-4d32-923d-0864f0c2a852"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/auth",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "auth"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Register User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "name",
+              "value": "Yanski",
+              "type": "text",
+              "uuid": "1efee488-90e8-49df-9042-94b4a2265f2d"
+            },
+            {
+              "key": "email",
+              "value": "email@email.test",
+              "type": "text",
+              "uuid": "50291548-e472-45cc-bac8-5e5c67493abc"
+            },
+            {
+              "key": "password",
+              "value": "123456",
+              "type": "text",
+              "uuid": "233c7214-63ca-4767-8586-24ab9675c6de"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/register",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Logout user",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseURL}}/users/logout",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "logout"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get User Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseURL}}/users/profile",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "profile"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update User Profile",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "name",
+              "value": "yanskiUpdated",
+              "type": "text",
+              "uuid": "d195379f-4415-459c-80ab-ace91843bd09"
+            },
+            {
+              "key": "email",
+              "value": "test@test.testt",
+              "type": "text",
+              "uuid": "2063c425-4d1d-4016-a7bd-71610fa2f9cd"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/profile?=&=",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "profile"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
