@@ -1,0 +1,9 @@
+# Regression testing
+    - You perform regression testing:
+        After bug fixes
+        After new features
+        After code refactoring
+        Before release
+
+functional
+usability, and performance testing
