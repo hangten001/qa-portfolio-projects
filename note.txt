@@ -1,9 +1,22 @@
-# Regression testing
+# Regression Testing
     - You perform regression testing:
         After bug fixes
         After new features
         After code refactoring
         Before release
 
-functional
-usability, and performance testing
+# Functional Testing
+    Checks if a feature works correctly
+    Focus: specific functionality
+    Usually done when a new feature is created
+
+    👉 Example:
+    Test if “Login” works properly
+
+# Usability Testing
+
+==============================================================
+🧠 Simple Analogy
+    Functional Testing → “Does this new feature work?”
+    Regression Testing → “Did anything break after the update?”
+===============================================================
