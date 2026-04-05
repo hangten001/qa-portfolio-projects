@@ -32,3 +32,5 @@ describe("Regression Suite - Login", () => {
 		cy.contains("Invalid credentials").should("be.visible");
 	});
 });
+
+// by YanskiDev
